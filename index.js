@@ -7,3 +7,6 @@ let myDiv = document.getElementById("myDiv");
 function display() {
     myDiv.style.display = "block"; /* and then the text appears */
 }
+function hidetext() {
+	myDiv.style.display = "none";
+}
