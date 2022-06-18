@@ -130,8 +130,8 @@
      clear: both;
   } 
     input[type=text], select, textarea { 
-      width: 150%; 
-      padding: 15px; 
+      width: 100%; 
+      padding: 10px; 
       border: 5px solid #E33E5A; 
       border-radius: 30px; 
       font-size: 70; 
