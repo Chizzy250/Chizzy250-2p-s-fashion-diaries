@@ -1,0 +1,214 @@
+* { 
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0; 
+ }
+  
+  ul { 
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+    overflow: hidden; 
+    background-image: url(bg.png);
+  }
+  
+  li a { 
+    display: inline-block; 
+    color: black; 
+    text-align: center; 
+    padding: 14px 16px; 
+    text-decoration: none; 
+    margin-right: 30px;
+    background-image: url(bg.png);
+  }
+
+ li a:hover {
+     background-color: #E33E5A;
+ }
+  
+  .container-fluid { 
+  background-image: url(bg.png);
+   height: auto; 
+   width: auto; 
+   color: black; 
+ } 
+ 
+ .content { 
+   position: relative;
+   display: flex; 
+   width: 60%; 
+   align-items: center; 
+   justify-content: space-between; 
+ } 
+ 
+ .content .text { 
+   position: relative; 
+   max-width: 600px; 
+   margin: 8px; 
+   padding: 20px; 
+ } 
+ 
+ .content .text h1 { 
+   font-family: 'Georgia', sans-serif, Couchin; 
+   text-transform: uppercase; 
+   font-weight: 400; 
+   margin-top: 10px; 
+   line-height: 0.5em;
+   letter-spacing: .1em;
+   font-size: 20px; 
+   color: black; 
+  } 
+  
+  .content .text h1 span { 
+    font-size: 30px; 
+  } 
+  
+  .content .text p { 
+  font-family: 'Georgia', Tisa, sans-serif,courier; 
+    font-size: 14sp; 
+    font-weight: 500; 
+    letter-spacing: .1em; 
+    margin-top: 40px; 
+    color: white; 
+  } 
+  
+  .btn3 {
+    background: linear-gradient(to bottom, #cbcbcb         2%, #fff 100%); 
+    margin-top: 60px; 
+    margin-left: 140px; 
+    padding: 15px 30px; 
+    text-align: center; 
+    transition: .5s; 
+    border: none; 
+    outline: none; 
+    text-transform: uppercase;
+    color: black; 
+    font-size: 20px; 
+    font-weight: 700; 
+    border-radius: 30px; 
+    box-shadow: 1px 4px 12px rgba(94,28,68,.15); 
+ } 
+ 
+   body { 
+    font-family: 'Cochin', BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    text-indent: 5%; 
+    background-image: url(bg.png);
+    color: black; 
+    box-sizing: border-box; 
+    border: none; 
+    outline: none;
+  } 
+  
+    .header { 
+      background-image: url(bg.png);
+      color: black; 
+      border: 10px solid  white; 
+      text-transform: capitalize; 
+      text-align: left; 
+      margin: 0; 
+      padding: 0; 
+      font-size: 1; 
+      font-weight: 30; 
+      font-family: 'Georgia';
+  } 
+  .fashion { 
+    display: flex; 
+    height: auto; 
+    position: absolute; 
+    width: auto; 
+    margin-top: 1px; 
+    padding-left: 300px; 
+    justify-content: flex-end; 
+  } 
+  .column { 
+    float: right; 
+    width: auto; 
+    padding: 0; 
+    text-indent: 0; 
+    text-align: justify;
+  } 
+   .row:after { 
+     content: ""; 
+     display: table; 
+     clear: both;
+  } 
+    input[type=text], textarea { 
+      width: 100%; 
+      padding: 10px; 
+      border: 5px solid black; 
+      border-radius: 30px; 
+      font-size: 70; 
+      font-weight: 900; 
+      resize: vertical;
+  } 
+    label { 
+      padding: 12px 12px 12px 0; 
+      display: block;
+  } 
+    
+     .btn4 {
+    background: linear-gradient(to bottom, #cbcbcb         2%, #fff 100%); 
+    margin-top: 60px; 
+    margin-left: 30px; 
+    padding: 15px 30px; 
+    text-align: center; 
+    transition: .5s; 
+    border: none; 
+    outline: none; 
+    text-transform: uppercase;
+    color: black; 
+    font-size: 20px; 
+    font-weight: 700; 
+    border-radius: 30px; 
+    box-shadow: 1px 4px 12px rgba(94,28,68,.15); 
+ } 
+   
+     .contain { 
+       border-radius: 5px; 
+       padding: 40px; 
+       background-image: url(bg.png);
+       height: auto; 
+       width: auto; 
+       background-position: center; 
+       background-size: cover; 
+       box-sizing: border-box; 
+       position: relative; 
+       font-family: Cochin, 'Georgia', Times, Times New Roman, serif; 
+       color: white; 
+       font-size: 30; 
+       font-weight: 400; 
+    } 
+      .col-25 { 
+        width: 100%; 
+        margin-top: 6px;
+    } 
+     .col-75 { 
+       width: 75%; 
+       margin-top: 6px;
+    } 
+      section:after { 
+        content: ""; 
+        display: table; 
+        clear: both;
+     } 
+       footer { 
+         background-color: black; 
+         padding: 40px; 
+         text-align: center; 
+         color: white; 
+     } 
+     
+      @media screen and (max-width:600px;) { 
+         .col-25, .col-75 { 
+         width: 100%; 
+         margin-top:0; 
+     }
+     
+       @media (max-width:600px;) { 
+         nav, article { 
+         width: auto; 
+         height: auto; 
+     }
+  }
+
+
