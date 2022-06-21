@@ -114,7 +114,7 @@
   .fashion { 
     display: flex; 
     height: auto; 
-    position: absolute; 
+    position: sticky; 
     width: auto; 
     margin-top: 10px; 
     padding-left: 700px; 
