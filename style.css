@@ -8,7 +8,7 @@
  position: relative;
   width: 100%; 
   overflow: hidden;
-   height: 150px; 
+   height: 200px; 
  }
 
   ul { 
@@ -121,7 +121,7 @@
   .fashion { 
     display: flex; 
     height: auto; 
-    position: sticky; 
+    position: absolute; 
     width: auto; 
     margin-top: 1px; 
     padding-left: 700px; 
