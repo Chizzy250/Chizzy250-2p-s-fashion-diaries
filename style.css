@@ -53,14 +53,14 @@
    text-transform: uppercase; 
    font-weight: 400; 
    margin-top: 70px; 
-   line-height: 0.5em;
+   line-height: 1.5em;
    letter-spacing: .1em;
    font-size: 20px; 
    color: black; 
   } 
   
   .content .text h1 span { 
-    font-size: 30px; 
+    font-size: 50px; 
   } 
   
   .content .text p { 
