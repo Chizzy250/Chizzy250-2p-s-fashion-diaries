@@ -9,7 +9,7 @@
     margin: 0; 
     padding: 0; 
     overflow: hidden; 
-    background-image: url(bg.png);
+    background-color: white;
   }
   
   li a { 
@@ -19,7 +19,7 @@
     padding: 14px 16px; 
     text-decoration: none; 
     margin-right: 30px;
-    background-image: url(bg.png);
+    background-color: white;
   }
 
  li a:hover {
