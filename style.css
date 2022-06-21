@@ -4,6 +4,14 @@
    padding: 0; 
  }
   
+.carousel { 
+ position: relative;
+  width: 100%; 
+  overflow: hidden;
+   height: 150px; 
+   resize: horizontal;
+  }
+
   ul { 
     list-style-type: none; 
     margin: 0; 
