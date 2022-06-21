@@ -45,7 +45,7 @@
    position: relative; 
    max-width: 600px; 
    margin: 8px; 
-   padding: 40px; 
+   padding: 70px; 
  } 
  
  .content .text h1 { 
@@ -116,7 +116,7 @@
     height: auto; 
     position: absolute; 
     width: auto; 
-    margin-top: 1px; 
+    margin-top: 10px; 
     padding-left: 700px; 
     justify-content: flex-end; 
   } 
