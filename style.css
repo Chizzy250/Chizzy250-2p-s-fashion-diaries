@@ -45,14 +45,14 @@
    position: relative; 
    max-width: 600px; 
    margin: 8px; 
-   padding: 20px; 
+   padding: 40px; 
  } 
  
  .content .text h1 { 
    font-family: 'Georgia', sans-serif, Couchin; 
    text-transform: uppercase; 
    font-weight: 400; 
-   margin-top: 150px; 
+   margin-top: 80px; 
    line-height: 1.5em;
    letter-spacing: .1em;
    font-size: 20px; 
@@ -116,7 +116,7 @@
     height: auto; 
     position: absolute; 
     width: auto; 
-    margin-top: 20px; 
+    margin-top: 1px; 
     padding-left: 700px; 
     justify-content: flex-end; 
   } 
