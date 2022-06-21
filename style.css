@@ -122,7 +122,7 @@
   .fashion { 
     display: flex; 
     height: auto; 
-    position: absolute; 
+    position: relative; 
     width: auto; 
     margin-top: 1px; 
     padding-left: 700px; 
