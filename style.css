@@ -31,6 +31,7 @@
    height: auto; 
    width: auto; 
    color: white; 
+   box-sizing: border-box;
  } 
  
  .content { 
@@ -45,7 +46,7 @@
    position: relative; 
    max-width: 600px; 
    margin: 8px; 
-   padding: 50px; 
+   padding: 20px; 
  } 
  
  .content .text h1 { 
@@ -68,7 +69,7 @@
     font-size: 30px; 
     font-weight: 500; 
     letter-spacing: .1em; 
-    margin-top: 50px; 
+    margin-top: 40px; 
     color: white; 
   } 
   
@@ -117,7 +118,7 @@
     position: relative; 
     width: auto; 
     margin-top: 1px; 
-    padding-left: 100px; 
+    padding-left: 700px; 
     justify-content: flex-end; 
   } 
   .column { 
