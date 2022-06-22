@@ -6,9 +6,9 @@
   
 .carousel { 
  position: relative;
-  width: 100%; 
+  width: 640px; 
   overflow: hidden;
-   height: 200px; 
+   height: 360px; 
  }
 
   ul { 
