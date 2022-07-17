@@ -208,8 +208,29 @@ section:after {
     clear: both;
 }
 
-@media (max-weight:600px) {
-    nav, article {
+@media (max-width:320px) {
+#nav-a ul, article, .container-fluid, .contain, .contentt, .fashion, .col-25, .col-75, .column, .header {
+    width: auto;
+    height: auto;
+ }
+}
+
+@media (max-width:600px) {
+#nav-a ul, .container-fluid, .contain, .contentt, .fashion, .col-25, .col-75, .column, .header {
+    width: auto;
+    height: auto;
+ }
+}
+
+@media (max-width:768px) {
+#nav-a ul, .container-fluid, .contain, .contentt, .fashion, .col-25, .col-75, .column, .header {
+    width: auto;
+    height: auto;
+ }
+}
+
+@media (max-width:1200px) {
+#nav-a ul, article, .container-fluid, .contain, .contentt, .fashion, .col-25, .col-75, .column, .header {
     width: auto;
     height: auto;
  }
