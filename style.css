@@ -209,28 +209,28 @@ section:after {
 }
 
 @media (max-width:320px) {
-#nav-a ul, article, .container-fluid, .contain, .contentt, .fashion, .col-25, .col-75, .column, .header {
+#nav-a ul, article, .container-fluid, .contain, .contentt, .fashion, .column, .header {
     width: auto;
     height: auto;
  }
 }
 
 @media (max-width:600px) {
-#nav-a ul, .container-fluid, .contain, .contentt, .fashion, .col-25, .col-75, .column, .header {
+#nav-a ul, .container-fluid, .contain, .contentt, .fashion, .column, .header {
     width: auto;
     height: auto;
  }
 }
 
 @media (max-width:768px) {
-#nav-a ul, .container-fluid, .contain, .contentt, .fashion, .col-25, .col-75, .column, .header {
+#nav-a ul, .container-fluid, .contain, .contentt, .fashion, .column, .header {
     width: auto;
     height: auto;
  }
 }
 
 @media (max-width:1200px) {
-#nav-a ul, article, .container-fluid, .contain, .contentt, .fashion, .col-25, .col-75, .column, .header {
+#nav-a ul, .container-fluid, .contain, .contentt, .fashion, .col-25, .col-75,.column, .header {
     width: auto;
     height: auto;
  }
